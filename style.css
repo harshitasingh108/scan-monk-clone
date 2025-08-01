@@ -1,0 +1,192 @@
+body{
+    background-color: #E4E6FF ;
+}
+
+.top{
+    background-color: #4E1FFF;
+    display:flex;
+justify-content:space-between;
+padding:1rem;
+align-items: center;
+color:white;
+font-size: 16px;
+}
+.contact{
+    display: flex;
+    gap:1.5rem;
+}
+.social{
+    display: inline-block;
+    margin-left: 10px;
+    gap:0.5rem;
+    background-color: antiquewhite;
+}
+
+.socialpro{
+    display:flex;
+}
+.header{
+    width:84rem;
+    height: 6rem;
+    background-color: #E4E6FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+.img{
+    width: 9rem;
+    height: 3.2rem;
+}
+/* 3 */
+.outter {
+    position: relative;
+width:100%;
+height: 300px;
+background-color:pink;
+
+}
+.outter img{
+     position: relative;
+width:100%;
+height: 100%;
+background-color:pink;
+object-fit: cover; 
+display: block;
+}
+.inner{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 14px;
+    gap:10px;
+display: flex;
+padding: 12px;
+border-radius:8px;
+background: rgba(255, 255,255, 0.2);
+color:rgba(79, 58, 58, 0.263)
+
+}
+.inner input{
+padding: 15px;
+border-radius:5px ;
+border:none;
+margin: 12px;
+background-color: rgba(255, 255,255, 0.2);
+
+}
+.inner-search i{
+color:grey;
+background-color: #E4E6FF;
+padding: 12px;
+}
+.inner button{
+    background-color: #FF9DA4E6;
+    color: #484848;
+    border-radius: 8px;
+}
+/* list parts */
+.listout{
+    display: flex;
+    justify-content: space-between;
+   padding: 0%;
+   margin: 0px;
+   
+}
+.listin img{
+  border-radius: 100%;
+  border:2px solid red;
+  width: 64px;
+  height: 64px;
+}
+.listin p{
+   
+    text-align: center;
+}
+/* card area  */
+.cardout{
+    display:flex;
+    overflow-x: auto;
+
+    gap:20px;
+    justify-content: center;
+ scroll-behavior: smooth;
+   /* margin:50px; */
+  
+}
+
+.cardin{
+width:209px;
+height: auto;
+
+border-radius:4px 4px 4px 4px;
+background-color: #4E1FFF;
+text-align: center;
+}
+.cardin img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    margin-bottom:8px;
+
+}
+
+/* cards2  */
+
+.cardout2{
+    display:inline-block;
+  
+    gap:20px;
+    justify-content: center;
+  
+   /* margin:50px; */
+  
+}
+
+.cardin2{
+width:209px;
+height: auto;
+
+border-radius:4px 4px 4px 4px;
+background-color: #4E1FFF;
+text-align: center;
+}
+.cardin2 img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    margin-bottom:8px;
+
+}
+.cardthird{
+    
+   gap: 20px;
+   
+   
+  margin :10px 10px 10px 10px;
+  padding: 15px;
+  display: flex;
+  
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.text{
+     background-color: #4E1FFF;
+    overflow:hidden;
+    flex-shrink:0;
+}
+.text:hover{
+    transform:translateY(-5px);
+    box-shadow: 6px 9px 0px 9px  yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
